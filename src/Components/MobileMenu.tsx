@@ -19,7 +19,7 @@ export default function MobileMenu() {
   return (
     <>
       <button
-        className="absolute right-20 flex cursor-pointer flex-col gap-1 lg:hidden"
+        className="z-11 absolute right-20 flex cursor-pointer flex-col gap-1 lg:hidden"
         onClick={() => (open ? handleClose() : setOpen(true))}
         id="menu-modal"
         aria-label="navigation menu"

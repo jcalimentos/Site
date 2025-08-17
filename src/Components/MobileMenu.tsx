@@ -19,7 +19,7 @@ export default function MobileMenu() {
   return (
     <>
       <button
-        className="z-20 absolute right-20 flex cursor-pointer flex-col gap-1 lg:hidden"
+        className="absolute right-20 flex cursor-pointer flex-col gap-1 lg:hidden"
         onClick={() => (open ? handleClose() : setOpen(true))}
         id="menu-modal"
         aria-label="navigation menu"
@@ -28,7 +28,7 @@ export default function MobileMenu() {
         {open && !closing ? <CloseIcon /> : <MenuBurguer />}
       </button>
       <Popper
-        className={`fixed top-20 z-30 m-0 w-[90%] mx-auto border-t-2 bg-secondary/80 font-bold uppercase text-white 
+        className={`fixed top-20 z-50 m-0 w-[90%] mx-auto border-t-2 bg-secondary/80 font-bold uppercase text-white 
           ${open && !closing ? "rise animate-fadeInDown" : ""} 
           ${closing ? "rise animate-fadeOutUp" : ""}`}
         open={open}

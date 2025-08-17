@@ -1,26 +1,187 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Definindo variáveis para cores e delays */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* evita scroll horizontal */
+}
+@theme {
+  /* Cores personalizadas */
+  --color-primary: #B89458;
+  --color-secondary: #413253;
+
+  
+
+  /* Delays de animação */
+  --animation-delay-0: 0ms;
+  --animation-delay-75: 75ms;
+  --animation-delay-100: 100ms;
+  --animation-delay-150: 150ms;
+  --animation-delay-200: 200ms;
+  --animation-delay-300: 300ms;
+  --animation-delay-500: 500ms;
+  --animation-delay-700: 700ms;
+  --animation-delay-1000: 1000ms;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* Animações e utilitários customizados */
+@layer utilities {
+    .bg-botao-enviar {
+    background-image: url('/Botão1Botão1SVG.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.bg-adorns {
+  background-image: url('/Adornos.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+  /* Keyframes das animações */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeOutUp {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-100%);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-fadeOutUp {
+  animation: fadeOutUp 0.5s both;
+}
+
+
+  .rise {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.rise.removed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+  /* Classes para usar as animações */
+  .animate-fadeInUp {
+    animation: fadeInUp 1s both;
+  }
+
+  .animate-fadeInRight {
+    animation: fadeInRight 1s both;
+  }
+
+  .animate-fadeInDown {
+    animation: fadeInDown 0.5s both;
+  }
+
+  .animate-fadeInLeft {
+    animation: fadeInLeft 1s both;
+  }
+
+  .animate-fadeIn {
+    animation: fadeIn 1.5s both;
+  }
+
+  /* Classes para delay de animação baseadas nas variáveis */
+  .animation-delay-0 {
+    animation-delay: var(--animation-delay-0);
+  }
+  .animation-delay-75 {
+    animation-delay: var(--animation-delay-75);
+  }
+  .animation-delay-100 {
+    animation-delay: var(--animation-delay-100);
+  }
+  .animation-delay-150 {
+    animation-delay: var(--animation-delay-150);
+  }
+  .animation-delay-200 {
+    animation-delay: var(--animation-delay-200);
+  }
+  .animation-delay-300 {
+    animation-delay: var(--animation-delay-300);
+  }
+  .animation-delay-500 {
+    animation-delay: var(--animation-delay-500);
+  }
+  .animation-delay-700 {
+    animation-delay: var(--animation-delay-700);
+  }
+  .animation-delay-1000 {
+    animation-delay: var(--animation-delay-1000);
+  }
+
+  /* Classes para as cores personalizadas */
+  .text-primary {
+    color: var(--color-primary);
+  }
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
 }

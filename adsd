@@ -1,0 +1,8 @@
+user.name=velfibra
+user.email=development@clickspeed.net.br
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/jcalimentos/Site.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*

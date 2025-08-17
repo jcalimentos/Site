@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Header() {
   return (
-    <header className="top-0 xl:w-[95%] left-0 flex items-center max-lg:fixed max-lg:z-10 max-lg:h-20 max-lg:w-full bg-white/20 backdrop-blur-md max-lg:-mx-auto">
+    <header className="top-0 z-10 xl:w-[95%] left-0 flex items-center max-lg:fixed max-lg:z-10 max-lg:h-20 max-lg:w-full bg-white/20 backdrop-blur-md max-lg:-mx-auto">
       <div className="top-0 flex h-24 items-center max-lg:w-full 2xl:mx-auto 2xl:w-full">
         <Logo className="ml-20 max-lg:hidden portrait:hidden" />
 

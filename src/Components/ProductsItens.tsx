@@ -70,7 +70,7 @@ export default function ProductsItens() {
           />
         </div>
         {/* SVG lateral esquerda */}
-        <div className="absolute  xl:hidden top-0 left-0 flex items-start  ">
+        <div className="absolute -z-20 xl:hidden top-0 left-0 flex items-start  ">
           <Image
             src="/Lista Corn (2).svg"
             width={170}
@@ -81,7 +81,7 @@ export default function ProductsItens() {
         </div>
 
         {/* SVG lateral direita */}
-        <div className="absolute -z-10 xl:hidden top-0 right-0 flex items-start ">
+        <div className="absolute -z-20 xl:hidden top-0 right-0 flex items-start ">
           <Image
             src="/Lista Jagger.svg"
             width={170}

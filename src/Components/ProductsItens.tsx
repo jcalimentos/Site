@@ -4,13 +4,13 @@ export default function ProductsItens() {
     <div className="xl:w-[60%] mx-auto px-4 py-12 relative">
       <div className="xl:w-[75%] mx-auto">
         {/* Título */}
-        <h2 className="text-3xl font-bold text-center mb-10 z-10 relative">
+        <h2 className="text-3xl font-bold text-center mb-10 relative">
           Da Amazônia para Seu Negócio
         </h2>
 
         {/* Container do grid para limitar a altura das listras */}
         <div
-          className="relative flex flex-wrap justify-center gap-8 z-10"
+          className="relative flex flex-wrap justify-center gap-8"
           id="gridContainer"
         >
           {Itens.map(({ img, img2, title, text }, i) => {

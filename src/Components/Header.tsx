@@ -71,7 +71,7 @@ const socialMedia = [
     link: "https://www.instagram.com/preamarpeixesemariscos",
   },
   {
-    url: "/ÍconeredesSociaisÍcone Facebook 1PNG (1).png",
+    url: "/ÍconeredesSociaisÍcone Facebook 1SVG.svg",
     link: "https://www.facebook.com/p/Preamarpeixesemariscos-100049722973977/?locale=ms_MY",
   },
 ];

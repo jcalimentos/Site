@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <section
       id="contact"
-      className="flex z-10 flex-col text-white bg-secondary w-full items-center xl:justify-center xl:py-5"
+      className="flex flex-col text-white bg-secondary w-full items-center xl:justify-center xl:py-5"
     >
       <div className="flex xl:w-[75%] justify-around items-center max-lg:flex-col max-lg:text-center">
         <LogoWhite />

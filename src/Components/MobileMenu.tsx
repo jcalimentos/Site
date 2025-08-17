@@ -28,7 +28,7 @@ export default function MobileMenu() {
         {open && !closing ? <CloseIcon /> : <MenuBurguer />}
       </button>
       <Popper
-        className={`fixed top-20 z-100 m-0 w-[90%] mx-auto border-t-2 bg-secondary/80 font-bold uppercase text-white 
+        className={`fixed top-20 z-50 m-0 w-[90%] mx-auto border-t-2 bg-secondary/80 font-bold uppercase text-white 
           ${open && !closing ? "rise animate-fadeInDown" : ""} 
           ${closing ? "rise animate-fadeOutUp" : ""}`}
         open={open}

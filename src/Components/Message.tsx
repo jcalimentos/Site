@@ -10,7 +10,6 @@ export default function Message({ children, show, onClose }: MessageProps) {
     <Popper
       open={show}
       onClose={onClose}
-      modal
       className="rounded-md border border-primary bg-bgLight"
     >
       <div className="flex flex-col items-center">

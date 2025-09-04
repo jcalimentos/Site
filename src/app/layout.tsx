@@ -23,6 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="googled3a973f3688fea1b"
+        />
+      </head>
       <body
         className={`${inter.variable} antialiased  flex flex-col min-h-screen`}
       >

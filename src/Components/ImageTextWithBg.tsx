@@ -5,6 +5,7 @@ type ImageTextWithBgProps = {
   src: string;
   alt: string;
   text: string;
+  title?: string;
   bgClass?: string;
 };
 
@@ -12,6 +13,7 @@ export default function ImageTextWithBg({
   src,
   alt,
   text,
+  title,
 }: ImageTextWithBgProps) {
   return (
     <div className="flex max-lg:flex-col xl:w-[60%] items-center mx-auto text-xl mt-0">
@@ -23,7 +25,8 @@ export default function ImageTextWithBg({
         alt={alt}
       />
       <div className="max-lg:px-3 max-lg:text-justify max-lg:leading-relaxed max-lg:w-full">
-        <p className="max-lg:text-base">{text}</p>
+        <h1 className="font-bold text-center my-10">{title}</h1>
+        <p className="max-lg:text-base ml-10">{text}</p>
       </div>
     </div>
   );

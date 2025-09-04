@@ -15,7 +15,13 @@ export default function ImageTextMobile({
   return (
     <div className="my-5 xl:hidden">
       <div className="relative my-5 w-screen h-[300px] sm:h-[400px] md:h-[600px]">
-        <Image src={src} alt={alt} fill style={{ objectFit: "cover" }} />
+        <Image
+          src={src}
+          loading="eager"
+          alt={alt}
+          fill
+          style={{ objectFit: "cover" }}
+        />
       </div>
       <p className="max-lg:text-base max-lg:text-justify max-lg:px-5 w-full mx-auto">
         {text}

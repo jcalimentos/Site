@@ -20,6 +20,7 @@ export default function ImageTextWithBg({
       <Image
         className="xl:w-[50%] my-10 xl:mr-5 max-lg:w-[95%] max-lg:mx-auto max-lg:my-5"
         src={src}
+        loading="eager"
         width={973}
         height={638}
         alt={alt}

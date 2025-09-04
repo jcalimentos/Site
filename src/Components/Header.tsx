@@ -20,23 +20,12 @@ export default function Header() {
           {/* Menu desktop */}
           <nav>
             <ul className="mt-2 flex text-lg font-bold max-2xl:text-lg">
-              {links.map(({ link, name, wpp, key, title }) => (
+              {links.map(({ link, name, key }) => (
                 <li
                   className="ml-16 flex items-center opacity-75 hover:opacity-100"
                   key={key}
                 >
                   <a href={link}>{name}</a>
-                  {key == 4 && (
-                    <a href={wpp} target="_Blank" className="flex items-center">
-                      <p>{title}</p>
-                      <Image
-                        src="/Contato1WhatsappPNG.png"
-                        width={50}
-                        height={50}
-                        alt="wpp-icone "
-                      />
-                    </a>
-                  )}
                 </li>
               ))}
             </ul>
@@ -55,6 +44,7 @@ export default function Header() {
 }
 
 const links = [
+  { name: "Home", link: "/", key: "0" },
   { name: "Quem Somos", link: "/quem-somos", key: "1" },
   { name: "Produtos", link: "/produtos", key: "2" },
   {
@@ -62,7 +52,7 @@ const links = [
     link: "/qualidade-e-procedencia",
     key: "3",
   },
-  { title: "Fale Conosco", wpp: "https://wa.me/91981379177", key: 4 },
+  { name: "Fale Conosco", link: "https://wa.me/91981379177", key: 4 },
 ];
 
 const socialMedia = [

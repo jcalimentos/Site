@@ -9,15 +9,15 @@ import CommitmentAmazon from "@/Components/CommitmentAmazon";
 export default function About() {
   return (
     <div className="text-black/80">
-      <TextSection
-        title="História da empresa"
-        text="A JC Select Alimentos nasceu em Belém do Pará, no coração da Amazônia, trazendo consigo o sabor da tradição, a força da terra e o respeito à origem dos alimentos. Fundada em 2020, em meio à pandemia, um período que exigiu mais cuidado, responsabilidade e visão, a empresa surgiu como uma resposta comprometida à necessidade de oferecer alimentos de qualidade, com procedência e confiança."
-        svg={BuildingSVG}
-      />
-
       <div className="max-lg:hidden">
         <AboutUs />
       </div>
+      <TextSection
+        title="História da empresa"
+        text="O projeto foi idealizado por Carlos Cardoso e Jeanne Cidade, um casal empreendedor que uniu experiência, sensibilidade e coragem para transformar uma pequena operação regional, chamada Preamar, em uma marca que hoje avança rumo ao Brasil e ao mundo. O sucesso e o crescimento constante tornaram inevitável a evolução da marca, que agora se apresenta ao mercado como JC Select Alimentos, uma identidade mais ampla, moderna e alinhada com o novo momento da empresa.
+"
+        svg={BuildingSVG}
+      />
 
       <ImageTextMobile
         src="/07.png"

@@ -12,7 +12,7 @@ export default function TextSection({
   svg: SvgComponent,
 }: TextSectionProps) {
   return (
-    <div className="flex max-lg:flex-col xl:mt-10 max-lg:mt-20 xl:w-[60%] items-center mx-auto text-xl max-lg:px-5">
+    <div className="flex justify-center max-lg:flex-col xl:mt-10 max-lg:mt-20 xl:w-[70%] items-center mx-auto text-xl max-lg:px-5">
       {SvgComponent && <SvgComponent className="max-lg:hidden" />}
       <div className="xl:w-[50%] max-lg:w-full max-lg:mx-auto max-lg:px-3">
         <h1 className="font-bold xl:text-2xl max-lg:text-lg my-5">{title}</h1>

@@ -9,13 +9,12 @@ export default function AboutUs() {
       height="600px"
     >
       <p className="xl:text-2xl my-10 drop-shadow-md max-lg:text-base max-lg:text-justify">
-        O projeto foi idealizado por Carlos Cardoso e Jeanne Cidade, um casal
-        empreendedor que uniu experiência, sensibilidade e coragem para
-        transformar uma pequena operação regional, chamada Preamar, em uma marca
-        que hoje avança rumo ao Brasil e ao mundo. O sucesso e o crescimento
-        constante tornaram inevitável a evolução da marca, que agora se
-        apresenta ao mercado como JC Select Alimentos, uma identidade mais
-        ampla, moderna e alinhada com o novo momento da empresa.
+        A JC Select Alimentos nasceu em Belém do Pará, no coração da Amazônia,
+        trazendo consigo o sabor da tradição, a força da terra e o respeito à
+        origem dos alimentos. Fundada em 2020, em meio à pandemia, um período
+        que exigiu mais cuidado, responsabilidade e visão, a empresa surgiu como
+        uma resposta comprometida à necessidade de oferecer alimentos de
+        qualidade, com procedência e confiança.
       </p>
     </ParallaxSection>
   );

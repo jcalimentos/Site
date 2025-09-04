@@ -8,7 +8,7 @@ export default function OurProducts() {
       overlayOpacity={0.4}
       height="600px"
     >
-      <p className="xl:text-2xl my-10 drop-shadow-md max-lg:text-base max-lg:text-justify">
+      <p className="xl:text-xl my-10 drop-shadow-md max-lg:text-base max-lg:text-justify">
         A JC Select Alimentos oferece uma seleção de produtos que valorizam a
         Amazônia e a excelência alimentar: pescados e frutos do mar frescos,
         carnes selecionadas, ovos, leite e queijos artesanais, além de

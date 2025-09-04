@@ -100,7 +100,7 @@ const Itens = [
     img: "/ProductsIcons/2PeixeSVG.svg",
     img2: "/ProductsIcons/2CaranguejoSVG.svg",
     title: "Pescados e Frutos do Mar",
-    text: "nossos peixes frescos e selecionados são provenientes de águas amazônicas e cultivados com rigor técnico e respeito ambiental. Oferecemos também mariscos, ostras, camarões e caranguejos, ideais para pratos sofisticados ou tradicionais, sempre com frescor e qualidade garantidos. São alimentos ricos em sabor, procedência e valorização regional.",
+    text: "Nossos peixes frescos e selecionados são provenientes de águas amazônicas e cultivados com rigor técnico e respeito ambiental. Oferecemos também mariscos, ostras, camarões e caranguejos, ideais para pratos sofisticados ou tradicionais, sempre com frescor e qualidade garantidos. São alimentos ricos em sabor, procedência e valorização regional.",
   },
   {
     img: "/ProductsIcons/2PedaçoCarneSVG.svg",

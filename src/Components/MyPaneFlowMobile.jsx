@@ -1,10 +1,10 @@
 'use client'
 import { useEffect, useRef } from "react";
-import PaneFlow from "./paneflowMobile";
-import "./paneflowMobile";
+import PaneFlow from "./paneflow";
+import "./paneflowMobile.css";
 import "./MyPaneFlowMobile.css";
 
-export default function MyPaneFlowMobile() {
+export default function MyPaneFlow() {
   const paneFlowElRef = useRef(null);
   const paneFlowInstanceRef = useRef(null);
 
@@ -286,8 +286,8 @@ export default function MyPaneFlowMobile() {
                   },
                   {
                     el: ".paneflow-item-mFFbWz",
-                    translateX: "-35.5cqw",
-                    translateY: "54.5cqw",
+                    translateX: "-39.8cqw",
+                    translateY: "60cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.53,
@@ -297,11 +297,11 @@ export default function MyPaneFlowMobile() {
                   },
                   {
                     el: ".paneflow-item-VxgdSP",
-                    translateX: "14.2cqw",
-                    translateY: "48.6cqw",
+                    translateX: "14cqw",
+                    translateY: "55cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 1.32,
+                    scale: 1.47,
                     transformOrigin: "center",
                     opacity: 1,
                     parallax: 0,
@@ -574,8 +574,8 @@ export default function MyPaneFlowMobile() {
                   },
                   {
                     el: ".paneflow-item-q85vfo",
-                    translateX: "-35.2cqw",
-                    translateY: "35.6cqw",
+                    translateX: "-37.2cqw",
+                    translateY: "30.3cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.55,
@@ -585,8 +585,8 @@ export default function MyPaneFlowMobile() {
                   },
                   {
                     el: ".paneflow-item-Sh2rd4",
-                    translateX: "-28cqw",
-                    translateY: "46.6cqw",
+                    translateX: "-30.5cqw",
+                    translateY: "38.8cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.58,
@@ -862,8 +862,8 @@ export default function MyPaneFlowMobile() {
                   },
                   {
                     el: ".paneflow-item-xLKo6r",
-                    translateX: "-47.8cqw",
-                    translateY: "47.4cqw",
+                    translateX: "-51.9cqw",
+                    translateY: "29.6cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.46,
@@ -873,8 +873,8 @@ export default function MyPaneFlowMobile() {
                   },
                   {
                     el: ".paneflow-item-bbwN20",
-                    translateX: "-24.5cqw",
-                    translateY: "56.4cqw",
+                    translateX: "-29.5cqw",
+                    translateY: "36.9cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.59,
@@ -1150,8 +1150,8 @@ export default function MyPaneFlowMobile() {
                   },
                   {
                     el: ".paneflow-item-uFoVzK",
-                    translateX: "1.1cqw",
-                    translateY: "56.6cqw",
+                    translateX: "1.3cqw",
+                    translateY: "129cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.99,
@@ -1161,8 +1161,8 @@ export default function MyPaneFlowMobile() {
                   },
                   {
                     el: ".paneflow-item-D9WF08",
-                    translateX: "-36cqw",
-                    translateY: "64.4cqw",
+                    translateX: "-35cqw",
+                    translateY: "134cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.54,
@@ -1434,7 +1434,7 @@ export default function MyPaneFlowMobile() {
       <div className="paneflow-content">
         <div className="paneflow-block paneflow-block-cecCQP">
           <div className="paneflow-bg-image paneflow-item-3Mk7IA">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/80da7e9387f660b2dabb.png" />
+            <img src="https://cdn.paneflow.com/unlikely-ratts-tyerel-177/8166f35d1eb91db2760a.png" />
           </div>
           <div className="paneflow-text paneflow-item-mFFbWz">
             <div className="paneflow-text-container">
@@ -1455,7 +1455,7 @@ export default function MyPaneFlowMobile() {
         </div>
         <div className="paneflow-block paneflow-block-zhpyj4">
           <div className="paneflow-bg-image paneflow-item-2UkykL">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/7ff868a17af8bbd3f354.png" />
+            <img src="https://cdn.paneflow.com/unlikely-ratts-tyerel-177/105be197120ef7ef03fc.png" />
           </div>
           <div className="paneflow-text paneflow-item-q85vfo">
             <div className="paneflow-text-container">
@@ -1476,7 +1476,7 @@ export default function MyPaneFlowMobile() {
         </div>
         <div className="paneflow-block paneflow-block-Fcxpiu">
           <div className="paneflow-bg-image paneflow-item-HSKOhH">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/7870bc11792a02a3e31a.png" />
+            <img src="https://cdn.paneflow.com/unlikely-ratts-tyerel-177/6b7d860cf78d3d03f7ef.png" />
           </div>
           <div className="paneflow-text paneflow-item-xLKo6r">
             <div className="paneflow-text-container">
@@ -1497,7 +1497,7 @@ export default function MyPaneFlowMobile() {
         </div>
         <div className="paneflow-block paneflow-block-xvmHDf">
           <div className="paneflow-bg-image paneflow-item-A36PhO">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/c004f4ed4d0f487586b4.png" />
+            <img src="https://cdn.paneflow.com/unlikely-ratts-tyerel-177/05c820ab2821efe1b749.png" />
           </div>
           <div className="paneflow-text paneflow-item-uFoVzK">
             <div className="paneflow-text-container">
@@ -1519,7 +1519,7 @@ export default function MyPaneFlowMobile() {
         </div>
         <div className="paneflow-block paneflow-block-Ak5Jts">
           <div className="paneflow-bg-image paneflow-item-nyG95x">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/efab59c50ea9d0b3ec20.png" />
+            <img src="https://cdn.paneflow.com/unlikely-ratts-tyerel-177/752033b813bfe451d8c4.png" />
           </div>
           <div className="paneflow-text paneflow-item-mfo1tD">
             <div className="paneflow-text-container">
@@ -1529,7 +1529,7 @@ export default function MyPaneFlowMobile() {
         </div>
         <div className="paneflow-block paneflow-block-v12cRX">
           <div className="paneflow-bg-image paneflow-item-eVgPrm">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/d3bbe7ce6a60daadccb5.png" />
+            <img src="https://cdn.paneflow.com/unlikely-ratts-tyerel-177/e7a205ad2176e06ea550.png" />
           </div>
           <div className="paneflow-text paneflow-item-fr5OwG">
             <div className="paneflow-text-container">

@@ -6,9 +6,9 @@ export default function AmazonOrigin() {
       src="/06.png"
       title="Origem Amazônica"
       overlayOpacity={0.4}
-      height="600px"
+      height="1100px"
     >
-      <p className="xl:text-2xl my-10 drop-shadow-md max-lg:text-base max-lg:text-justify">
+      <p className="xl:text-2xl font-semibold my-10 text-shadow-2xs drop-shadow-md max-lg:text-base max-lg:text-justify">
         A JC Select Alimentos se diferencia no mercado por unir origem
         amazônica, qualidade premium e variedade de produtos que atendem tanto o
         consumidor final quanto grandes empresas. Nascida em Belém do Pará,

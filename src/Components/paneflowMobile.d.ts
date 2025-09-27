@@ -187,6 +187,7 @@ declare class PaneFlow {
     initKeyboardControl(): void;
     startAutoplay(): void;
     stopAutoplay(): void;
+    pauseVideo(blockEl: HTMLElement): void;
     playVideo(blockEl: HTMLElement): void;
     destroy(): void;
     getCQWSize(value: string | number | undefined | null): string | number;

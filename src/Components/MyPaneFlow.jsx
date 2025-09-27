@@ -26,133 +26,70 @@ export default function MyPaneFlow() {
             rows: 2,
             blocks: [
               {
-                el: ".paneflow-block-cecCQP",
+                el: ".paneflow-block-bYSRTd",
                 col: 0,
                 row: 0,
                 widthCols: 1,
                 heightRows: 1,
                 children: [
                   {
-                    el: ".paneflow-item-3Mk7IA",
-                    translateX: 0,
-                    translateY: 0,
+                    el: ".paneflow-item-9I1TMs",
+                    translateX: "10.3cqw",
+                    translateY: "6.8cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 1,
+                    scale: 3.06,
                     transformOrigin: "center",
                     opacity: 1,
-                  },
-                  {
-                    el: ".paneflow-item-mFFbWz",
-                    translateX: "-0.8cqw",
-                    translateY: "-21cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 10,
-                  },
-                  {
-                    el: ".paneflow-item-VxgdSP",
-                    translateX: "0.2cqw",
-                    translateY: "-6.7cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 10,
+                    parallax: 0,
                   },
                 ],
-                enterFrom: "top-left",
-                exitTo: "top-left",
+                enterFrom: "right",
+                exitTo: "left",
               },
               {
-                el: ".paneflow-block-zhpyj4",
+                el: ".paneflow-block-swKOSH",
                 col: 1,
                 row: 0,
                 widthCols: 1,
                 heightRows: 1,
                 children: [
                   {
-                    el: ".paneflow-item-2UkykL",
-                    translateX: 0,
-                    translateY: 0,
+                    el: ".paneflow-item-doyDx6",
+                    translateX: "8.3cqw",
+                    translateY: "5.4cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 1,
+                    scale: 3.45,
                     transformOrigin: "center",
                     opacity: 1,
-                  },
-                  {
-                    el: ".paneflow-item-q85vfo",
-                    translateX: "-9.1cqw",
-                    translateY: "-19cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
-                    parallax: 10,
-                  },
-                  {
-                    el: ".paneflow-item-Sh2rd4",
-                    translateX: "-8cqw",
-                    translateY: "-21.7cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 10,
+                    parallax: 0,
                   },
                 ],
-                enterFrom: "top",
-                exitTo: "top",
+                enterFrom: "right",
+                exitTo: "left",
               },
               {
-                el: ".paneflow-block-Fcxpiu",
+                el: ".paneflow-block-lLDAa3",
                 col: 2,
                 row: 0,
                 widthCols: 1,
                 heightRows: 1,
                 children: [
                   {
-                    el: ".paneflow-item-HSKOhH",
-                    translateX: 0,
-                    translateY: 0,
+                    el: ".paneflow-item-omiiw6",
+                    translateX: "9.7cqw",
+                    translateY: "4.1cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 1,
+                    scale: 3.23,
                     transformOrigin: "center",
                     opacity: 1,
-                  },
-                  {
-                    el: ".paneflow-item-xLKo6r",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
-                    parallax: 10,
-                  },
-                  {
-                    el: ".paneflow-item-bbwN20",
-                    translateX: "-14.6cqw",
-                    translateY: "-19.8cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 10,
+                    parallax: 0,
                   },
                 ],
-                enterFrom: "top-right",
-                exitTo: "top-right",
+                enterFrom: "right",
+                exitTo: "left",
               },
               {
                 el: ".paneflow-block-xvmHDf",
@@ -172,26 +109,37 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-uFoVzK",
-                    translateX: "-25.8cqw",
-                    translateY: "-38.3cqw",
+                    el: ".paneflow-item-m0prHo",
+                    translateX: "46.9cqw",
+                    translateY: "-177.3cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
                     transformOrigin: "center",
                     opacity: 1,
-                    parallax: 10,
+                    parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-D9WF08",
-                    translateX: "-10.1cqw",
-                    translateY: "-47.1cqw",
+                    el: ".paneflow-item-Uu7iK8",
+                    translateX: "268.1cqw",
+                    translateY: "18.6cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
                     transformOrigin: "center",
                     opacity: 1,
-                    parallax: 10,
+                    parallax: 0,
+                  },
+                  {
+                    el: ".paneflow-item-eRhVjj",
+                    translateX: "210.8cqw",
+                    translateY: "135.8cqw",
+                    translateZ: 0,
+                    rotate: 0,
+                    scale: 0.51,
+                    transformOrigin: "center",
+                    opacity: 1,
+                    parallax: 0,
                   },
                 ],
                 enterFrom: "bottom-left",
@@ -214,16 +162,6 @@ export default function MyPaneFlow() {
                     transformOrigin: "center",
                     opacity: 1,
                   },
-                  {
-                    el: ".paneflow-item-mfo1tD",
-                    translateX: "0cqw",
-                    translateY: "0cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
-                  },
                 ],
                 enterFrom: "bottom",
                 exitTo: "bottom",
@@ -244,16 +182,6 @@ export default function MyPaneFlow() {
                     scale: 1,
                     transformOrigin: "center",
                     opacity: 1,
-                  },
-                  {
-                    el: ".paneflow-item-fr5OwG",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
                   },
                 ],
                 enterFrom: "bottom-right",
@@ -285,26 +213,26 @@ export default function MyPaneFlow() {
                     parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-mFFbWz",
-                    translateX: "-50.6cqw",
-                    translateY: "14.1cqw",
+                    el: ".paneflow-item-aI1Pur",
+                    translateX: "3.1cqw",
+                    translateY: "17.1cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 0.27,
+                    scale: 1,
                     transformOrigin: "center",
                     opacity: 1,
-                    parallax: 0,
+                    parallax: 10,
                   },
                   {
-                    el: ".paneflow-item-VxgdSP",
-                    translateX: "16.5cqw",
-                    translateY: "12.1cqw",
+                    el: ".paneflow-item-IRCxRb",
+                    translateX: "-28.8cqw",
+                    translateY: "21.8cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 0.84,
+                    scale: 0.52,
                     transformOrigin: "center",
                     opacity: 1,
-                    parallax: 0,
+                    parallax: 10,
                   },
                 ],
                 enterFrom: "right",
@@ -334,9 +262,9 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-mFFbWz",
-                    translateX: "-9.6cqw",
-                    translateY: "-25.9cqw",
+                    el: ".paneflow-item-aI1Pur",
+                    translateX: "29cqw",
+                    translateY: "-35cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -345,9 +273,9 @@ export default function MyPaneFlow() {
                     parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-VxgdSP",
-                    translateX: "2.2cqw",
-                    translateY: "-20.9cqw",
+                    el: ".paneflow-item-IRCxRb",
+                    translateX: "62.2cqw",
+                    translateY: "-48.6cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -377,19 +305,20 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-q85vfo",
-                    translateX: 0,
-                    translateY: 0,
+                    el: ".paneflow-item-kduald",
+                    translateX: "19.7cqw",
+                    translateY: "-117.5cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
                     transformOrigin: "center",
-                    opacity: 0,
+                    opacity: 1,
+                    parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-Sh2rd4",
-                    translateX: "-10cqw",
-                    translateY: "-20.1cqw",
+                    el: ".paneflow-item-Ykdums",
+                    translateX: "6.6cqw",
+                    translateY: "-203.1cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -419,19 +348,20 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-xLKo6r",
-                    translateX: 0,
-                    translateY: 0,
+                    el: ".paneflow-item-QWpJMe",
+                    translateX: "41.1cqw",
+                    translateY: "-87.4cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
                     transformOrigin: "center",
-                    opacity: 0,
+                    opacity: 1,
+                    parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-bbwN20",
-                    translateX: "-4.8cqw",
-                    translateY: "-16.6cqw",
+                    el: ".paneflow-item-jciWTI",
+                    translateX: "5.6cqw",
+                    translateY: "-139.7cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -461,9 +391,9 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-uFoVzK",
-                    translateX: "-12.2cqw",
-                    translateY: "-35.6cqw",
+                    el: ".paneflow-item-m0prHo",
+                    translateX: "50.8cqw",
+                    translateY: "-27.7cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -472,12 +402,23 @@ export default function MyPaneFlow() {
                     parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-D9WF08",
-                    translateX: "-6cqw",
-                    translateY: "42.5cqw",
+                    el: ".paneflow-item-Uu7iK8",
+                    translateX: "158.6cqw",
+                    translateY: "-94.7cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
+                    transformOrigin: "center",
+                    opacity: 1,
+                    parallax: 0,
+                  },
+                  {
+                    el: ".paneflow-item-eRhVjj",
+                    translateX: "208.8cqw",
+                    translateY: "-0.7cqw",
+                    translateZ: 0,
+                    rotate: 0,
+                    scale: 0.51,
                     transformOrigin: "center",
                     opacity: 1,
                     parallax: 0,
@@ -503,16 +444,6 @@ export default function MyPaneFlow() {
                     transformOrigin: "center",
                     opacity: 1,
                   },
-                  {
-                    el: ".paneflow-item-mfo1tD",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
-                  },
                 ],
                 enterFrom: "bottom",
                 exitTo: "bottom",
@@ -533,16 +464,6 @@ export default function MyPaneFlow() {
                     scale: 1,
                     transformOrigin: "center",
                     opacity: 1,
-                  },
-                  {
-                    el: ".paneflow-item-fr5OwG",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
                   },
                 ],
                 enterFrom: "bottom-right",
@@ -570,29 +491,30 @@ export default function MyPaneFlow() {
                     rotate: 0,
                     scale: 1,
                     transformOrigin: "center",
-                    opacity: 1,
+                    opacity: 0.85,
+                    parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-q85vfo",
-                    translateX: "-51cqw",
-                    translateY: "6.6cqw",
+                    el: ".paneflow-item-kduald",
+                    translateX: "0.7cqw",
+                    translateY: "17cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 0.34,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 10,
-                  },
-                  {
-                    el: ".paneflow-item-Sh2rd4",
-                    translateX: "-46.4cqw",
-                    translateY: "11.5cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 0.32,
+                    scale: 0.95,
                     transformOrigin: "center",
                     opacity: 1,
                     parallax: 0,
+                  },
+                  {
+                    el: ".paneflow-item-Ykdums",
+                    translateX: "-8.9cqw",
+                    translateY: "22.2cqw",
+                    translateZ: 0,
+                    rotate: 0,
+                    scale: 0.76,
+                    transformOrigin: "center",
+                    opacity: 1,
+                    parallax: 10,
                   },
                 ],
                 enterFrom: "right",
@@ -622,9 +544,9 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-mFFbWz",
-                    translateX: "-7.9cqw",
-                    translateY: "-16.3cqw",
+                    el: ".paneflow-item-aI1Pur",
+                    translateX: "568.1cqw",
+                    translateY: "-66cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -633,9 +555,9 @@ export default function MyPaneFlow() {
                     parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-VxgdSP",
-                    translateX: "0.3cqw",
-                    translateY: "-22.6cqw",
+                    el: ".paneflow-item-IRCxRb",
+                    translateX: "723.1cqw",
+                    translateY: "-190.6cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -665,19 +587,20 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-q85vfo",
-                    translateX: 0,
-                    translateY: 0,
+                    el: ".paneflow-item-kduald",
+                    translateX: "53.9cqw",
+                    translateY: "-83.3cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
                     transformOrigin: "center",
-                    opacity: 0,
+                    opacity: 1,
+                    parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-Sh2rd4",
-                    translateX: "-3.9cqw",
-                    translateY: "-17.8cqw",
+                    el: ".paneflow-item-Ykdums",
+                    translateX: "22.3cqw",
+                    translateY: "-155.5cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -707,19 +630,20 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-xLKo6r",
-                    translateX: 0,
-                    translateY: 0,
+                    el: ".paneflow-item-QWpJMe",
+                    translateX: "-1.1cqw",
+                    translateY: "-186.1cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
                     transformOrigin: "center",
-                    opacity: 0,
+                    opacity: 1,
+                    parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-bbwN20",
-                    translateX: "-5.5cqw",
-                    translateY: "-16.8cqw",
+                    el: ".paneflow-item-jciWTI",
+                    translateX: "-12.1cqw",
+                    translateY: "-104.6cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -749,9 +673,9 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-uFoVzK",
-                    translateX: "-17.6cqw",
-                    translateY: "-36.8cqw",
+                    el: ".paneflow-item-m0prHo",
+                    translateX: "50.2cqw",
+                    translateY: "-101.7cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -760,12 +684,23 @@ export default function MyPaneFlow() {
                     parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-D9WF08",
-                    translateX: "-4.3cqw",
-                    translateY: "-39.6cqw",
+                    el: ".paneflow-item-Uu7iK8",
+                    translateX: "38.6cqw",
+                    translateY: "-120.2cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
+                    transformOrigin: "center",
+                    opacity: 1,
+                    parallax: 0,
+                  },
+                  {
+                    el: ".paneflow-item-eRhVjj",
+                    translateX: "68.3cqw",
+                    translateY: "-118.4cqw",
+                    translateZ: 0,
+                    rotate: 0,
+                    scale: 0.51,
                     transformOrigin: "center",
                     opacity: 1,
                     parallax: 0,
@@ -791,16 +726,6 @@ export default function MyPaneFlow() {
                     transformOrigin: "center",
                     opacity: 1,
                   },
-                  {
-                    el: ".paneflow-item-fr5OwG",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
-                  },
                 ],
                 enterFrom: "bottom-right",
                 exitTo: "bottom-right",
@@ -821,16 +746,6 @@ export default function MyPaneFlow() {
                     scale: 1,
                     transformOrigin: "center",
                     opacity: 1,
-                  },
-                  {
-                    el: ".paneflow-item-mfo1tD",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
                   },
                 ],
                 enterFrom: "bottom",
@@ -861,26 +776,26 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-xLKo6r",
-                    translateX: "-59.3cqw",
-                    translateY: "10.5cqw",
+                    el: ".paneflow-item-QWpJMe",
+                    translateX: "-8.5cqw",
+                    translateY: "21.6cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 0.28,
+                    scale: 0.78,
                     transformOrigin: "center",
                     opacity: 1,
                     parallax: 10,
                   },
                   {
-                    el: ".paneflow-item-bbwN20",
-                    translateX: "-40.7cqw",
-                    translateY: "14.9cqw",
+                    el: ".paneflow-item-jciWTI",
+                    translateX: "-35.7cqw",
+                    translateY: "24.1cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 0.3,
+                    scale: 0.42,
                     transformOrigin: "center",
                     opacity: 1,
-                    parallax: 0,
+                    parallax: 10,
                   },
                 ],
                 enterFrom: "right",
@@ -910,9 +825,9 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-mFFbWz",
-                    translateX: "-5.6cqw",
-                    translateY: "-24.2cqw",
+                    el: ".paneflow-item-aI1Pur",
+                    translateX: "50.4cqw",
+                    translateY: "-123cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -921,9 +836,9 @@ export default function MyPaneFlow() {
                     parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-VxgdSP",
-                    translateX: "1.8cqw",
-                    translateY: "-17.5cqw",
+                    el: ".paneflow-item-IRCxRb",
+                    translateX: "75.4cqw",
+                    translateY: "-85.4cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -953,9 +868,9 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-uFoVzK",
-                    translateX: "-6.6cqw",
-                    translateY: "-18.6cqw",
+                    el: ".paneflow-item-m0prHo",
+                    translateX: "30.5cqw",
+                    translateY: "-81.6cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -964,12 +879,23 @@ export default function MyPaneFlow() {
                     parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-D9WF08",
-                    translateX: "-0.7cqw",
-                    translateY: "-24.7cqw",
+                    el: ".paneflow-item-Uu7iK8",
+                    translateX: "12cqw",
+                    translateY: "-60.8cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
+                    transformOrigin: "center",
+                    opacity: 1,
+                    parallax: 0,
+                  },
+                  {
+                    el: ".paneflow-item-eRhVjj",
+                    translateX: "0.6cqw",
+                    translateY: "-58cqw",
+                    translateZ: 0,
+                    rotate: 0,
+                    scale: 0.51,
                     transformOrigin: "center",
                     opacity: 1,
                     parallax: 0,
@@ -996,19 +922,20 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-q85vfo",
-                    translateX: 0,
-                    translateY: 0,
+                    el: ".paneflow-item-kduald",
+                    translateX: "15.7cqw",
+                    translateY: "-168.6cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
                     transformOrigin: "center",
-                    opacity: 0,
+                    opacity: 1,
+                    parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-Sh2rd4",
-                    translateX: "-2.7cqw",
-                    translateY: "-18.3cqw",
+                    el: ".paneflow-item-Ykdums",
+                    translateX: "37cqw",
+                    translateY: "-123.5cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -1037,16 +964,6 @@ export default function MyPaneFlow() {
                     transformOrigin: "center",
                     opacity: 1,
                   },
-                  {
-                    el: ".paneflow-item-mfo1tD",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
-                  },
                 ],
                 enterFrom: "bottom",
                 exitTo: "bottom",
@@ -1069,19 +986,20 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-xLKo6r",
-                    translateX: 0,
-                    translateY: 0,
+                    el: ".paneflow-item-QWpJMe",
+                    translateX: "9cqw",
+                    translateY: "-113.9cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
                     transformOrigin: "center",
-                    opacity: 0,
+                    opacity: 1,
+                    parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-bbwN20",
-                    translateX: "-5.6cqw",
-                    translateY: "-18.9cqw",
+                    el: ".paneflow-item-jciWTI",
+                    translateX: "-23.5cqw",
+                    translateY: "-211.8cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -1109,16 +1027,6 @@ export default function MyPaneFlow() {
                     scale: 1,
                     transformOrigin: "center",
                     opacity: 1,
-                  },
-                  {
-                    el: ".paneflow-item-fr5OwG",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
                   },
                 ],
                 enterFrom: "bottom",
@@ -1149,26 +1057,37 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-uFoVzK",
-                    translateX: "-7cqw",
-                    translateY: "13.9cqw",
+                    el: ".paneflow-item-m0prHo",
+                    translateX: "-4.4cqw",
+                    translateY: "2.6cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 0.58,
+                    scale: 0.86,
                     transformOrigin: "center",
                     opacity: 1,
-                    parallax: 0,
+                    parallax: 10,
                   },
                   {
-                    el: ".paneflow-item-D9WF08",
-                    translateX: "-45.2cqw",
-                    translateY: "16.2cqw",
+                    el: ".paneflow-item-Uu7iK8",
+                    translateX: "-43.3cqw",
+                    translateY: "6.3cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 0.3,
+                    scale: 0.41,
                     transformOrigin: "center",
                     opacity: 1,
-                    parallax: 0,
+                    parallax: 10,
+                  },
+                  {
+                    el: ".paneflow-item-eRhVjj",
+                    translateX: "-23.1cqw",
+                    translateY: "8.7cqw",
+                    translateZ: 0,
+                    rotate: 0,
+                    scale: 0.43,
+                    transformOrigin: "center",
+                    opacity: 1,
+                    parallax: 10,
                   },
                 ],
                 enterFrom: "right",
@@ -1198,9 +1117,9 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-mFFbWz",
-                    translateX: "-8.1cqw",
-                    translateY: "-24.2cqw",
+                    el: ".paneflow-item-aI1Pur",
+                    translateX: "68.6cqw",
+                    translateY: "-119.6cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -1209,9 +1128,9 @@ export default function MyPaneFlow() {
                     parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-VxgdSP",
-                    translateX: "1.7cqw",
-                    translateY: "-16.4cqw",
+                    el: ".paneflow-item-IRCxRb",
+                    translateX: "45.9cqw",
+                    translateY: "-106cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -1241,19 +1160,20 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-xLKo6r",
-                    translateX: 0,
-                    translateY: 0,
+                    el: ".paneflow-item-QWpJMe",
+                    translateX: "61.5cqw",
+                    translateY: "-186.4cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
                     transformOrigin: "center",
-                    opacity: 0,
+                    opacity: 1,
+                    parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-bbwN20",
-                    translateX: "-2.5cqw",
-                    translateY: "-33cqw",
+                    el: ".paneflow-item-jciWTI",
+                    translateX: "2.6cqw",
+                    translateY: "-183.9cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -1283,19 +1203,20 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-q85vfo",
-                    translateX: 0,
-                    translateY: 0,
+                    el: ".paneflow-item-kduald",
+                    translateX: "138.4cqw",
+                    translateY: "-160.9cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
                     transformOrigin: "center",
-                    opacity: 0,
+                    opacity: 1,
+                    parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-Sh2rd4",
-                    translateX: "-19.5cqw",
-                    translateY: "-43.7cqw",
+                    el: ".paneflow-item-Ykdums",
+                    translateX: "78.9cqw",
+                    translateY: "-127.2cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -1324,16 +1245,6 @@ export default function MyPaneFlow() {
                     transformOrigin: "center",
                     opacity: 1,
                   },
-                  {
-                    el: ".paneflow-item-mfo1tD",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
-                  },
                 ],
                 enterFrom: "right",
                 exitTo: "right",
@@ -1356,9 +1267,9 @@ export default function MyPaneFlow() {
                     opacity: 1,
                   },
                   {
-                    el: ".paneflow-item-uFoVzK",
-                    translateX: "0.7cqw",
-                    translateY: "26.6cqw",
+                    el: ".paneflow-item-m0prHo",
+                    translateX: "15.9cqw",
+                    translateY: "-98.7cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -1367,12 +1278,23 @@ export default function MyPaneFlow() {
                     parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-D9WF08",
-                    translateX: "9.2cqw",
-                    translateY: "37.2cqw",
+                    el: ".paneflow-item-Uu7iK8",
+                    translateX: "2.7cqw",
+                    translateY: "-90.3cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
+                    transformOrigin: "center",
+                    opacity: 1,
+                    parallax: 0,
+                  },
+                  {
+                    el: ".paneflow-item-eRhVjj",
+                    translateX: "-31.4cqw",
+                    translateY: "18.8cqw",
+                    translateZ: 0,
+                    rotate: 0,
+                    scale: 0.51,
                     transformOrigin: "center",
                     opacity: 1,
                     parallax: 0,
@@ -1398,324 +1320,9 @@ export default function MyPaneFlow() {
                     transformOrigin: "center",
                     opacity: 1,
                   },
-                  {
-                    el: ".paneflow-item-fr5OwG",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
-                  },
                 ],
                 enterFrom: "right",
                 exitTo: "right",
-              },
-            ],
-            autoplayInternal: 0,
-          },
-          {
-            cols: 6,
-            rows: 3,
-            blocks: [
-              {
-                el: ".paneflow-block-cecCQP",
-                col: 0,
-                row: 0,
-                widthCols: 1,
-                heightRows: 1,
-                children: [
-                  {
-                    el: ".paneflow-item-3Mk7IA",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                  },
-                  {
-                    el: ".paneflow-item-mFFbWz",
-                    translateX: "1cqw",
-                    translateY: "-18.3cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 0,
-                  },
-                  {
-                    el: ".paneflow-item-VxgdSP",
-                    translateX: "1.9cqw",
-                    translateY: "-17.4cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 0,
-                  },
-                ],
-                enterFrom: "left",
-                exitTo: "left",
-              },
-              {
-                el: ".paneflow-block-zhpyj4",
-                col: 1,
-                row: 0,
-                widthCols: 2,
-                heightRows: 2,
-                children: [
-                  {
-                    el: ".paneflow-item-2UkykL",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                  },
-                  {
-                    el: ".paneflow-item-q85vfo",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
-                  },
-                  {
-                    el: ".paneflow-item-Sh2rd4",
-                    translateX: "0.9cqw",
-                    translateY: "-20.9cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 0,
-                  },
-                ],
-                enterFrom: "top",
-                exitTo: "top",
-              },
-              {
-                el: ".paneflow-block-Fcxpiu",
-                col: 3,
-                row: 0,
-                widthCols: 3,
-                heightRows: 1,
-                children: [
-                  {
-                    el: ".paneflow-item-HSKOhH",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                  },
-                  {
-                    el: ".paneflow-item-xLKo6r",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
-                  },
-                  {
-                    el: ".paneflow-item-bbwN20",
-                    translateX: "-13.5cqw",
-                    translateY: "-30.7cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 0,
-                  },
-                ],
-                enterFrom: "top",
-                exitTo: "top",
-              },
-              {
-                el: ".paneflow-block-bFL41T",
-                col: 0,
-                row: 1,
-                widthCols: 1,
-                heightRows: 1,
-                children: [
-                  {
-                    el: ".paneflow-item-ihLog9",
-                    translateX: "2.5cqw",
-                    translateY: "4.4cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 2.3,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 0,
-                  },
-                ],
-                enterFrom: "right",
-                exitTo: "left",
-              },
-              {
-                el: ".paneflow-block-Ak5Jts",
-                col: 3,
-                row: 1,
-                widthCols: 2,
-                heightRows: 2,
-                children: [
-                  {
-                    el: ".paneflow-item-nyG95x",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                  },
-                  {
-                    el: ".paneflow-item-mfo1tD",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
-                  },
-                ],
-                enterFrom: "bottom",
-                exitTo: "bottom",
-              },
-              {
-                el: ".paneflow-block-v12cRX",
-                col: 5,
-                row: 1,
-                widthCols: 1,
-                heightRows: 1,
-                children: [
-                  {
-                    el: ".paneflow-item-eVgPrm",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                  },
-                  {
-                    el: ".paneflow-item-fr5OwG",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 0,
-                  },
-                ],
-                enterFrom: "right",
-                exitTo: "right",
-              },
-              {
-                el: ".paneflow-block-xvmHDf",
-                col: 0,
-                row: 2,
-                widthCols: 2,
-                heightRows: 1,
-                children: [
-                  {
-                    el: ".paneflow-item-A36PhO",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                  },
-                  {
-                    el: ".paneflow-item-uFoVzK",
-                    translateX: "0.6cqw",
-                    translateY: "25.9cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 0,
-                  },
-                  {
-                    el: ".paneflow-item-D9WF08",
-                    translateX: "-2.7cqw",
-                    translateY: "35.9cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 1,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 0,
-                  },
-                ],
-                enterFrom: "bottom",
-                exitTo: "bottom",
-              },
-              {
-                el: ".paneflow-block-Padeqh",
-                col: 2,
-                row: 2,
-                widthCols: 1,
-                heightRows: 1,
-                children: [
-                  {
-                    el: ".paneflow-item-jWlS9a",
-                    translateX: 0,
-                    translateY: 0,
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 2.31,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 0,
-                  },
-                ],
-                enterFrom: "right",
-                exitTo: "left",
-              },
-              {
-                el: ".paneflow-block-JTUYKF",
-                col: 5,
-                row: 2,
-                widthCols: 1,
-                heightRows: 1,
-                children: [
-                  {
-                    el: ".paneflow-item-7jwADI",
-                    translateX: "5.5cqw",
-                    translateY: "5cqw",
-                    translateZ: 0,
-                    rotate: 0,
-                    scale: 2.14,
-                    transformOrigin: "center",
-                    opacity: 1,
-                    parallax: 0,
-                  },
-                ],
-                enterFrom: "right",
-                exitTo: "left",
               },
             ],
             autoplayInternal: 0,
@@ -1739,59 +1346,55 @@ export default function MyPaneFlow() {
       <div className="paneflow-content">
         <div className="paneflow-block paneflow-block-cecCQP">
           <div className="paneflow-bg-image paneflow-item-3Mk7IA">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/80da7e9387f660b2dabb.png" />
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/8166f35d1eb91db2760a.png" />
           </div>
-          <div className="paneflow-text paneflow-item-mFFbWz">
-            <div className="paneflow-text-container">
-              <div className="paneflow-text-content">
-                Nascemos em Belém do Pará e levamos o melhor da região Norte
-                para todo o Brasil.
-                <br />
-                &nbsp;Origem que se sente no sabor.
-              </div>
-            </div>
-          </div>
-          <div className="paneflow-text paneflow-item-VxgdSP">
+          <div className="paneflow-text paneflow-item-aI1Pur">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
                 Da Amazônia para sua mesa
               </div>
             </div>
           </div>
+          <div className="paneflow-text paneflow-item-IRCxRb">
+            <div className="paneflow-text-container">
+              <div className="paneflow-text-content">
+                Nascemos em Belém do Pará e levamos o melhor da região Nortepara
+                todo o Brasil.
+              </div>
+            </div>
+          </div>
         </div>
         <div className="paneflow-block paneflow-block-zhpyj4">
           <div className="paneflow-bg-image paneflow-item-2UkykL">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/7ff868a17af8bbd3f354.png" />
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/6b7d860cf78d3d03f7ef.png" />
           </div>
-          <div className="paneflow-text paneflow-item-q85vfo">
+          <div className="paneflow-text paneflow-item-kduald">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
                 Qualidade que alimenta confiança
               </div>
             </div>
           </div>
-          <div className="paneflow-text paneflow-item-Sh2rd4">
+          <div className="paneflow-text paneflow-item-Ykdums">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
                 Selecionamos, cuidamos e entregamos com responsabilidade.
-                <br />
-                Nosso compromisso é com a excelência em cada produto.
               </div>
             </div>
           </div>
         </div>
         <div className="paneflow-block paneflow-block-Fcxpiu">
           <div className="paneflow-bg-image paneflow-item-HSKOhH">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/7870bc11792a02a3e31a.png" />
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/3171cfed2edbdef96c68.png" />
           </div>
-          <div className="paneflow-text paneflow-item-xLKo6r">
+          <div className="paneflow-text paneflow-item-QWpJMe">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
-                Variedade que atende todos os públicos
+                &nbsp;Variedade que atende todos os públicos
               </div>
             </div>
           </div>
-          <div className="paneflow-text paneflow-item-bbwN20">
+          <div className="paneflow-text paneflow-item-jciWTI">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
                 Do consumidor final às grandes empresas, pescados, carnes,
@@ -1803,59 +1406,54 @@ export default function MyPaneFlow() {
         </div>
         <div className="paneflow-block paneflow-block-xvmHDf">
           <div className="paneflow-bg-image paneflow-item-A36PhO">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/c004f4ed4d0f487586b4.png" />
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/05c820ab2821efe1b749.png" />
           </div>
-          <div className="paneflow-text paneflow-item-uFoVzK">
+          <div className="paneflow-text paneflow-item-m0prHo">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
                 Alimentos com identidade brasileira
               </div>
             </div>
           </div>
-          <div className="paneflow-text paneflow-item-D9WF08">
+          <div className="paneflow-text paneflow-item-Uu7iK8">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
                 Mais que alimentos: entregamos cultura, frescor e respeito às
                 raízes.
-                <br />
-                &nbsp;Uma marca conectada com o território.
+              </div>
+            </div>
+          </div>
+          <div className="paneflow-text paneflow-item-eRhVjj">
+            <div className="paneflow-text-container">
+              <div className="paneflow-text-content">
+                Uma marca conectada com o território.
               </div>
             </div>
           </div>
         </div>
         <div className="paneflow-block paneflow-block-Ak5Jts">
           <div className="paneflow-bg-image paneflow-item-nyG95x">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/efab59c50ea9d0b3ec20.png" />
-          </div>
-          <div className="paneflow-text paneflow-item-mfo1tD">
-            <div className="paneflow-text-container">
-              <div className="paneflow-text-content">Style in Motion</div>
-            </div>
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/752033b813bfe451d8c4.png" />
           </div>
         </div>
         <div className="paneflow-block paneflow-block-v12cRX">
           <div className="paneflow-bg-image paneflow-item-eVgPrm">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/d3bbe7ce6a60daadccb5.png" />
-          </div>
-          <div className="paneflow-text paneflow-item-fr5OwG">
-            <div className="paneflow-text-container">
-              <div className="paneflow-text-content">Red Means Power</div>
-            </div>
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/e7a205ad2176e06ea550.png" />
           </div>
         </div>
-        <div className="paneflow-block paneflow-block-bFL41T">
-          <div className="paneflow-image paneflow-item-ihLog9">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/16636a18946e20516daf.png" />
+        <div className="paneflow-block paneflow-block-bYSRTd">
+          <div className="paneflow-image paneflow-item-9I1TMs">
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/8166f35d1eb91db2760a.png" />
           </div>
         </div>
-        <div className="paneflow-block paneflow-block-Padeqh">
-          <div className="paneflow-image paneflow-item-jWlS9a">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/6d555502b4521e6815e4.png" />
+        <div className="paneflow-block paneflow-block-swKOSH">
+          <div className="paneflow-image paneflow-item-doyDx6">
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/105be197120ef7ef03fc.png" />
           </div>
         </div>
-        <div className="paneflow-block paneflow-block-JTUYKF">
-          <div className="paneflow-image paneflow-item-7jwADI">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/8d600dce5927ac50950f.png" />
+        <div className="paneflow-block paneflow-block-lLDAa3">
+          <div className="paneflow-image paneflow-item-omiiw6">
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/6b7d860cf78d3d03f7ef.png" />
           </div>
         </div>
       </div>

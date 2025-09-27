@@ -7,7 +7,7 @@ export default function CommitmentAmazon() {
       title="Compromisso com a Amazônia e com a qualidade alimentar
 "
       overlayOpacity={0.4}
-      height="600px"
+      height="1100px"
     >
       <p className="xl:text-2xl my-10 drop-shadow-md max-lg:text-base max-lg:text-justify">
         Na JC Select Alimentos, nosso compromisso com a Amazônia vai além da

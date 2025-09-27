@@ -3,7 +3,7 @@
  * https://paneflow.com
  * Copyright 2025 PaneFlow
  * Released under the PaneFlow Regular License
- * August 10, 2025
+ * September 23, 2025
  */
 
 function getBlockCSSVars(paneParams, blockParams) {
@@ -696,6 +696,7 @@ class PaneFlow {
                     subEl.style.transitionDelay = `${delay}ms`;
                     subEl.style.transitionDuration = `${TRANSITION_DURATION}ms`;
                 });
+                paneFlow.pauseVideo(blockEl);
                 paneFlow.blockExit(currentPaneParams, blockParams, direction);
             });
             // ANIMATE ENTER
@@ -1018,15 +1019,52 @@ class PaneFlow {
             return;
         clearTimeout(this._autoplayInterval);
     }
-    playVideo(blockEl) {
-        const videoEls = blockEl.querySelectorAll('video');
+    pauseVideo(blockEl) {
+        const videoEls = blockEl.querySelectorAll('.paneflow-video iframe');
         if (videoEls.length === 0)
             return;
-        videoEls.forEach((videoEl) => {
-            if (videoEl.autoplay)
-                return;
-            videoEl.currentTime = 0;
-            videoEl.play();
+        videoEls.forEach((el) => {
+            if (el.nodeName === 'IFRAME') {
+                const iframeEl = el;
+                if (iframeEl.src.includes('vimeo')) {
+                    iframeEl.src = iframeEl.src.replace('autoplay=1', 'autoplay=0');
+                }
+                else {
+                    iframeEl.contentWindow?.postMessage('{"event":"command","func":"stopVideo","args":[]}', 'https://www.youtube.com');
+                }
+            }
+            else {
+                const videoEl = el;
+                videoEl.pause();
+            }
+        });
+    }
+    playVideo(blockEl) {
+        const videoEls = blockEl.querySelectorAll('video, .paneflow-video iframe');
+        if (videoEls.length === 0)
+            return;
+        videoEls.forEach((el) => {
+            if (el.nodeName === 'IFRAME') {
+                const iframeEl = el;
+                if (iframeEl.src.includes('vimeo')) {
+                    const src = iframeEl.src;
+                    if (src.includes('autoplay=0')) {
+                        iframeEl.src = src.replace('autoplay=0', 'autoplay=1');
+                        return;
+                    }
+                    iframeEl.src = src + '?autoplay=1';
+                }
+                else {
+                    iframeEl.contentWindow?.postMessage('{"event":"command","func":"playVideo","args":[]}', 'https://www.youtube.com');
+                }
+            }
+            else {
+                const videoEl = el;
+                if (videoEl.autoplay)
+                    return;
+                videoEl.currentTime = 0;
+                videoEl.play();
+            }
         });
     }
     destroy() {

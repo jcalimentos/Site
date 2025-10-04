@@ -53,7 +53,7 @@ const links = [
   { name: "Quem Somos", link: "/quem-somos", key: "1" },
   { name: "Produtos", link: "/produtos", key: "2" },
   { name: "Qualidade e Procedência", link: "fa", key: "3" },
-  { name: "Fale Conosco", link: "https://wa.me/91981379177", key: 4 },
+  { name: "Fale Conosco", link: "https://wa.me/5591984509855", key: 4 },
 ];
 const Contatos = [
   {

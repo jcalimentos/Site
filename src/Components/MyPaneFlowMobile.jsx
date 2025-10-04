@@ -574,8 +574,8 @@ export default function MyPaneFlow() {
                   },
                   {
                     el: ".paneflow-item-q85vfo",
-                    translateX: "-37.2cqw",
-                    translateY: "30.3cqw",
+                    translateX: "-36.8cqw",
+                    translateY: "30cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.55,
@@ -585,8 +585,8 @@ export default function MyPaneFlow() {
                   },
                   {
                     el: ".paneflow-item-Sh2rd4",
-                    translateX: "-30.5cqw",
-                    translateY: "38.8cqw",
+                    translateX: "-31.1cqw",
+                    translateY: "38cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.58,
@@ -873,7 +873,7 @@ export default function MyPaneFlow() {
                   },
                   {
                     el: ".paneflow-item-bbwN20",
-                    translateX: "-29.5cqw",
+                    translateX: "-29.6cqw",
                     translateY: "36.9cqw",
                     translateZ: 0,
                     rotate: 0,
@@ -1150,22 +1150,22 @@ export default function MyPaneFlow() {
                   },
                   {
                     el: ".paneflow-item-uFoVzK",
-                    translateX: "1.3cqw",
-                    translateY: "129cqw",
+                    translateX: "0.3cqw",
+                    translateY: "129.8cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 0.99,
+                    scale: 0.91,
                     transformOrigin: "center",
                     opacity: 1,
                     parallax: 0,
                   },
                   {
                     el: ".paneflow-item-D9WF08",
-                    translateX: "-35cqw",
+                    translateX: "-36.2cqw",
                     translateY: "134cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 0.54,
+                    scale: 0.5,
                     transformOrigin: "center",
                     opacity: 1,
                     parallax: 0,
@@ -1512,7 +1512,7 @@ export default function MyPaneFlow() {
                 Mais que alimentos: entregamos cultura, frescor e respeito às
                 raízes.
                 <br />
-                &nbsp;Uma marca conectada com o território.
+                Uma marca conectada com o território.
               </div>
             </div>
           </div>

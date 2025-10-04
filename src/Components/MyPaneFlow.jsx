@@ -34,7 +34,7 @@ export default function MyPaneFlow() {
                 children: [
                   {
                     el: ".paneflow-item-9I1TMs",
-                    translateX: "10.3cqw",
+                    translateX: "10.4cqw",
                     translateY: "6.8cqw",
                     translateZ: 0,
                     rotate: 0,
@@ -56,8 +56,8 @@ export default function MyPaneFlow() {
                 children: [
                   {
                     el: ".paneflow-item-doyDx6",
-                    translateX: "8.3cqw",
-                    translateY: "5.4cqw",
+                    translateX: "10.1cqw",
+                    translateY: "3.9cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 3.45,
@@ -214,29 +214,29 @@ export default function MyPaneFlow() {
                   },
                   {
                     el: ".paneflow-item-aI1Pur",
-                    translateX: "3.1cqw",
-                    translateY: "17.1cqw",
+                    translateX: "4.5cqw",
+                    translateY: "8.2cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 1,
+                    scale: 1.03,
                     transformOrigin: "center",
                     opacity: 1,
                     parallax: 10,
                   },
                   {
-                    el: ".paneflow-item-IRCxRb",
-                    translateX: "-28.8cqw",
-                    translateY: "21.8cqw",
+                    el: ".paneflow-item-52eDUv",
+                    translateX: "6.6cqw",
+                    translateY: "17.6cqw",
                     translateZ: 0,
                     rotate: 0,
-                    scale: 0.52,
+                    scale: 1.2,
                     transformOrigin: "center",
                     opacity: 1,
-                    parallax: 10,
+                    parallax: 0,
                   },
                 ],
-                enterFrom: "right",
-                exitTo: "left",
+                enterFrom: "bottom-right",
+                exitTo: "bottom-left",
               },
             ],
           },
@@ -273,9 +273,9 @@ export default function MyPaneFlow() {
                     parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-IRCxRb",
-                    translateX: "62.2cqw",
-                    translateY: "-48.6cqw",
+                    el: ".paneflow-item-52eDUv",
+                    translateX: "-26cqw",
+                    translateY: "8.8cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -491,13 +491,13 @@ export default function MyPaneFlow() {
                     rotate: 0,
                     scale: 1,
                     transformOrigin: "center",
-                    opacity: 0.85,
+                    opacity: 1,
                     parallax: 0,
                   },
                   {
                     el: ".paneflow-item-kduald",
-                    translateX: "0.7cqw",
-                    translateY: "17cqw",
+                    translateX: "9cqw",
+                    translateY: "11.3cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.95,
@@ -507,8 +507,8 @@ export default function MyPaneFlow() {
                   },
                   {
                     el: ".paneflow-item-Ykdums",
-                    translateX: "-8.9cqw",
-                    translateY: "22.2cqw",
+                    translateX: "0.3cqw",
+                    translateY: "43.6cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.76,
@@ -555,9 +555,9 @@ export default function MyPaneFlow() {
                     parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-IRCxRb",
-                    translateX: "723.1cqw",
-                    translateY: "-190.6cqw",
+                    el: ".paneflow-item-52eDUv",
+                    translateX: "-26cqw",
+                    translateY: "7.1cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -777,8 +777,8 @@ export default function MyPaneFlow() {
                   },
                   {
                     el: ".paneflow-item-QWpJMe",
-                    translateX: "-8.5cqw",
-                    translateY: "21.6cqw",
+                    translateX: "-2.9cqw",
+                    translateY: "31.6cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.78,
@@ -788,8 +788,8 @@ export default function MyPaneFlow() {
                   },
                   {
                     el: ".paneflow-item-jciWTI",
-                    translateX: "-35.7cqw",
-                    translateY: "24.1cqw",
+                    translateX: "-35.8cqw",
+                    translateY: "39cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.42,
@@ -836,9 +836,9 @@ export default function MyPaneFlow() {
                     parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-IRCxRb",
-                    translateX: "75.4cqw",
-                    translateY: "-85.4cqw",
+                    el: ".paneflow-item-52eDUv",
+                    translateX: "-23.7cqw",
+                    translateY: "16.3cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -1058,8 +1058,8 @@ export default function MyPaneFlow() {
                   },
                   {
                     el: ".paneflow-item-m0prHo",
-                    translateX: "-4.4cqw",
-                    translateY: "2.6cqw",
+                    translateX: "0.6cqw",
+                    translateY: "31.2cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.86,
@@ -1069,8 +1069,8 @@ export default function MyPaneFlow() {
                   },
                   {
                     el: ".paneflow-item-Uu7iK8",
-                    translateX: "-43.3cqw",
-                    translateY: "6.3cqw",
+                    translateX: "7.2cqw",
+                    translateY: "34.8cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.41,
@@ -1128,9 +1128,9 @@ export default function MyPaneFlow() {
                     parallax: 0,
                   },
                   {
-                    el: ".paneflow-item-IRCxRb",
-                    translateX: "45.9cqw",
-                    translateY: "-106cqw",
+                    el: ".paneflow-item-52eDUv",
+                    translateX: "-25.7cqw",
+                    translateY: "21.9cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1,
@@ -1346,27 +1346,31 @@ export default function MyPaneFlow() {
       <div className="paneflow-content">
         <div className="paneflow-block paneflow-block-cecCQP">
           <div className="paneflow-bg-image paneflow-item-3Mk7IA">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/8166f35d1eb91db2760a.png" />
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/10cbe0d76ed26d1c683d.png" />
           </div>
           <div className="paneflow-text paneflow-item-aI1Pur">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
-                Da Amazônia para sua mesa
+                Da Amazônia <br />
+                para sua mesa
               </div>
             </div>
           </div>
-          <div className="paneflow-text paneflow-item-IRCxRb">
+          <div className="paneflow-text paneflow-item-52eDUv">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
-                Nascemos em Belém do Pará e levamos o melhor da região Nortepara
-                todo o Brasil.
+                Nascemos em Belém do Pará <br />e levamos o melhor da região{" "}
+                <br />
+                Norte para todo o Brasil.
+                <br />
+                Origem que se sente no sabor.
               </div>
             </div>
           </div>
         </div>
         <div className="paneflow-block paneflow-block-zhpyj4">
           <div className="paneflow-bg-image paneflow-item-2UkykL">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/6b7d860cf78d3d03f7ef.png" />
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/a2dd1452c0504077369d.png" />
           </div>
           <div className="paneflow-text paneflow-item-kduald">
             <div className="paneflow-text-container">
@@ -1390,7 +1394,8 @@ export default function MyPaneFlow() {
           <div className="paneflow-text paneflow-item-QWpJMe">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
-                &nbsp;Variedade que atende todos os públicos
+                Variedade que atende <br />
+                todos os públicos
               </div>
             </div>
           </div>
@@ -1411,23 +1416,26 @@ export default function MyPaneFlow() {
           <div className="paneflow-text paneflow-item-m0prHo">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
-                Alimentos com identidade brasileira
+                Alimentos <br />
+                com identida
+                <br />
+                de brasileira
               </div>
             </div>
           </div>
           <div className="paneflow-text paneflow-item-Uu7iK8">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
-                Mais que alimentos: entregamos cultura, frescor e respeito às
-                raízes.
+                Mais que alimentos: entregamos cultura, <br />
+                frescor e respeito às raízes.
+                <br />
+                Uma marca conectada com o território.
               </div>
             </div>
           </div>
           <div className="paneflow-text paneflow-item-eRhVjj">
             <div className="paneflow-text-container">
-              <div className="paneflow-text-content">
-                Uma marca conectada com o território.
-              </div>
+              <div className="paneflow-text-content"></div>
             </div>
           </div>
         </div>
@@ -1438,12 +1446,12 @@ export default function MyPaneFlow() {
         </div>
         <div className="paneflow-block paneflow-block-v12cRX">
           <div className="paneflow-bg-image paneflow-item-eVgPrm">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/e7a205ad2176e06ea550.png" />
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/1ee93f17c5b32d6ec5af.png" />
           </div>
         </div>
         <div className="paneflow-block paneflow-block-bYSRTd">
           <div className="paneflow-image paneflow-item-9I1TMs">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/8166f35d1eb91db2760a.png" />
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/9bc087bffb250e0aa2cc.png" />
           </div>
         </div>
         <div className="paneflow-block paneflow-block-swKOSH">

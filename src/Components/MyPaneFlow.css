@@ -49,7 +49,7 @@
 }
 
 .paneflow-item-aI1Pur .paneflow-text-container {
-  font-size: 5cqw;
+  font-size: 3.4cqw;
   text-align: left;
   color: rgba(65, 50, 83, 1);
   font-weight: bold;
@@ -61,17 +61,16 @@
   backdrop-filter: blur(4px);
 }
 
-.paneflow-item-IRCxRb .paneflow-text-container {
-  font-size: 3.6cqw;
+.paneflow-item-52eDUv .paneflow-text-container {
+  font-size: 1.7cqw;
   text-align: left;
   color: rgba(65, 50, 83, 1);
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
-  line-height: 1;
+  line-height: 1.1;
   padding: 0cqw 0cqw;
   border-radius: 0;
-  backdrop-filter: blur(4px);
 }
 
 .paneflow-item-2UkykL img {
@@ -249,7 +248,7 @@
 .paneflow-item-9I1TMs {
   width: 10cqw;
   height: 10cqw;
-  transform: translate3d(10.3cqw, 6.8cqw, 0) scale(3.06) rotate(0deg);
+  transform: translate3d(10.4cqw, 6.8cqw, 0) scale(3.06) rotate(0deg);
   transform-origin: center;
   opacity: 1;
 }
@@ -271,7 +270,7 @@
 .paneflow-item-doyDx6 {
   width: 10cqw;
   height: 10cqw;
-  transform: translate3d(8.3cqw, 5.4cqw, 0) scale(3.45) rotate(0deg);
+  transform: translate3d(10.1cqw, 3.9cqw, 0) scale(3.45) rotate(0deg);
   transform-origin: center;
   opacity: 1;
 }

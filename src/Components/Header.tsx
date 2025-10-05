@@ -52,7 +52,7 @@ const links = [
     link: "/qualidade-e-procedencia",
     key: "3",
   },
-  { name: "Fale Conosco", link: "https://wa.me/91981379177", key: 4 },
+  { name: "Fale Conosco", link: "https://wa.me/5591984509855", key: 4 },
 ];
 
 const socialMedia = [

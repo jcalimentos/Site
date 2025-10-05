@@ -19,7 +19,7 @@ export default function Header() {
         <div className="ml-64 flex w-3/5 justify-between max-2xl:ml-0 max-2xl:w-4/5 max-2xl:justify-evenly max-lg:hidden">
           {/* Menu desktop */}
           <nav>
-            <ul className="mt-2 flex text-lg font-bold max-2xl:text-lg">
+            <ul className="mt-2 flex text-lg font-bold max-2xl:text-lg lg:text-base ">
               {links.map(({ link, name, key }) => (
                 <li
                   className="ml-16 flex items-center opacity-75 hover:opacity-100"

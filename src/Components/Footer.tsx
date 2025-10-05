@@ -63,6 +63,12 @@ const Contatos = [
     icon: "/2LocalizaçãoPNG.png",
   },
   { title: "Email:", text: "Em breve...", key: "2", icon: "/1NotesPNG.png" },
+  {
+    title: "CNPJ:",
+    text: "45.788.617.0001-51",
+    key: "3",
+    icon: "/1PessoaPNG.png",
+  },
 ];
 const socialMedia = [
   {

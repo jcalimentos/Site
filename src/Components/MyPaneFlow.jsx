@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { useEffect, useRef } from "react";
 import PaneFlow from "./paneflow";
 import "./paneflow.css";
@@ -215,7 +215,7 @@ export default function MyPaneFlow() {
                   {
                     el: ".paneflow-item-aI1Pur",
                     translateX: "4.5cqw",
-                    translateY: "8.2cqw",
+                    translateY: "17.6cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1.03,
@@ -225,8 +225,8 @@ export default function MyPaneFlow() {
                   },
                   {
                     el: ".paneflow-item-52eDUv",
-                    translateX: "6.6cqw",
-                    translateY: "17.6cqw",
+                    translateX: "6.1cqw",
+                    translateY: "26cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 1.2,
@@ -496,8 +496,8 @@ export default function MyPaneFlow() {
                   },
                   {
                     el: ".paneflow-item-kduald",
-                    translateX: "9cqw",
-                    translateY: "11.3cqw",
+                    translateX: "21.9cqw",
+                    translateY: "32.6cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.95,
@@ -507,8 +507,8 @@ export default function MyPaneFlow() {
                   },
                   {
                     el: ".paneflow-item-Ykdums",
-                    translateX: "0.3cqw",
-                    translateY: "43.6cqw",
+                    translateX: "16.7cqw",
+                    translateY: "42.2cqw",
                     translateZ: 0,
                     rotate: 0,
                     scale: 0.76,
@@ -1346,7 +1346,7 @@ export default function MyPaneFlow() {
       <div className="paneflow-content">
         <div className="paneflow-block paneflow-block-cecCQP">
           <div className="paneflow-bg-image paneflow-item-3Mk7IA">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/10cbe0d76ed26d1c683d.png" />
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/58a3ae9a1d10039b49cf.png" />
           </div>
           <div className="paneflow-text paneflow-item-aI1Pur">
             <div className="paneflow-text-container">
@@ -1370,26 +1370,28 @@ export default function MyPaneFlow() {
         </div>
         <div className="paneflow-block paneflow-block-zhpyj4">
           <div className="paneflow-bg-image paneflow-item-2UkykL">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/a2dd1452c0504077369d.png" />
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/9b75faf95075fa3af435.png" />
           </div>
           <div className="paneflow-text paneflow-item-kduald">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
-                Qualidade que alimenta confiança
+                Qualidade que <br />
+                alimenta confiança
               </div>
             </div>
           </div>
           <div className="paneflow-text paneflow-item-Ykdums">
             <div className="paneflow-text-container">
               <div className="paneflow-text-content">
-                Selecionamos, cuidamos e entregamos com responsabilidade.
+                Selecionamos, cuidamos e <br />
+                entregamos com responsabilidade.
               </div>
             </div>
           </div>
         </div>
         <div className="paneflow-block paneflow-block-Fcxpiu">
           <div className="paneflow-bg-image paneflow-item-HSKOhH">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/3171cfed2edbdef96c68.png" />
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/db1ee123003f5878d222.png" />
           </div>
           <div className="paneflow-text paneflow-item-QWpJMe">
             <div className="paneflow-text-container">
@@ -1441,12 +1443,12 @@ export default function MyPaneFlow() {
         </div>
         <div className="paneflow-block paneflow-block-Ak5Jts">
           <div className="paneflow-bg-image paneflow-item-nyG95x">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/752033b813bfe451d8c4.png" />
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/f30d0b49427fed4d740d.png" />
           </div>
         </div>
         <div className="paneflow-block paneflow-block-v12cRX">
           <div className="paneflow-bg-image paneflow-item-eVgPrm">
-            <img src="https://cdn.paneflow.com/unchanged-vonni-421/1ee93f17c5b32d6ec5af.png" />
+            <img src="https://cdn.paneflow.com/unchanged-vonni-421/dc1a852315a88857ea13.png" />
           </div>
         </div>
         <div className="paneflow-block paneflow-block-bYSRTd">

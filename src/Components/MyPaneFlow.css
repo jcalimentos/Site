@@ -62,7 +62,7 @@
 }
 
 .paneflow-item-52eDUv .paneflow-text-container {
-  font-size: 1.7cqw;
+  font-size: 1.4cqw;
   text-align: left;
   color: rgba(65, 50, 83, 1);
   font-weight: normal;
@@ -110,7 +110,7 @@
 .paneflow-item-QWpJMe .paneflow-text-container {
   font-size: 5cqw;
   text-align: left;
-  color: rgba(65, 50, 83, 1);
+  color: rgba(255, 255, 255, 1);
   font-weight: bold;
   font-style: normal;
   text-decoration: none;
@@ -122,7 +122,7 @@
 .paneflow-item-jciWTI .paneflow-text-container {
   font-size: 5cqw;
   text-align: left;
-  color: rgba(65, 50, 83, 1);
+  color: rgba(255, 255, 255, 1);
   font-weight: normal;
   font-style: normal;
   text-decoration: none;
@@ -206,7 +206,7 @@
 }
 .paneflow-item-nyG95x img {
   object-fit: cover;
-  object-position: center;
+  object-position: right;
 }
 .paneflow-item-nyG95x {
   transform: translate3d(0px, 0px, 0) scale(1) rotate(0deg);

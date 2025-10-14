@@ -13,12 +13,12 @@ export default function About() {
       <div className="max-lg:hidden">
         <AboutUs />
       </div>
-      <div className="lg:hidden mt-15">
+      <div className="lg:hidden mt-20">
         <ParallaxSection
           src="/07.png"
           title="JC Select Alimentos"
           overlayOpacity={0.4}
-          height="700px"
+          height="470px"
         >
           <p className="xl:text-xl my-10 drop-shadow-md max-lg:text-base max-lg:text-justify">
             A JC Select Alimentos nasceu em Belém do Pará, no coração da

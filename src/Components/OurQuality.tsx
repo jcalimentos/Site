@@ -6,7 +6,7 @@ export default function OurQuality() {
       src="/09.png"
       title="Qualidade e Procedência"
       overlayOpacity={0.4}
-      height="1100px"
+      height="700px"
     >
       <p className="xl:text-xl my-10 drop-shadow-md max-lg:text-base max-lg:text-justify">
         Na JC Select Alimentos, cada etapa, da origem ao destino, é guiada por

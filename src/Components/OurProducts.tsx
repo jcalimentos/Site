@@ -6,7 +6,7 @@ export default function OurProducts() {
       src="/05.png"
       title="O Sabor da Amazônia em Cada Produto"
       overlayOpacity={0.4}
-      height="600px"
+      height="800px"
     >
       <p className="xl:text-xl my-10 drop-shadow-md max-lg:text-base max-lg:text-justify">
         A JC Select Alimentos oferece uma seleção de produtos que valorizam a

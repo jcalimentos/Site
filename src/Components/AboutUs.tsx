@@ -6,7 +6,7 @@ export default function AboutUs() {
       src="/07.png"
       title="JC Select Alimentos"
       overlayOpacity={0.4}
-      height="1100px"
+      height="900px"
     >
       <p className="xl:text-2xl my-10 drop-shadow-md max-lg:text-base max-lg:text-justify">
         A JC Select Alimentos nasceu em Belém do Pará, no coração da Amazônia,

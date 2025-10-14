@@ -57,7 +57,6 @@ export default function ParallaxSection({
           fill
           style={{ objectFit: "cover", objectPosition: "center top" }}
           priority
-          className="mt-15"
         />
         <div
           className="absolute inset-0"

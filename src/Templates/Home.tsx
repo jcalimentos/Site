@@ -4,6 +4,9 @@ import Contacts from "@/Components/Contacts";
 import EmailForm from "@/Components/EmailForm";
 import MyPaneFlow from "@/Components/MyPaneFlow";
 import MyPaneFlowMobile from "@/Components/MyPaneFlowMobile";
+import SwipperImage from "@/Components/swipper";
+
+const images = ["/swipper1.png", "/swipper2.png", "/swipper3.png"];
 
 export default function Home() {
   return (
@@ -15,7 +18,8 @@ export default function Home() {
         <div className="mt-15 xl:hidden">
           <MyPaneFlowMobile />
         </div>
-        <AmazonOrigin />
+        {/* <AmazonOrigin /> */}
+        <SwipperImage images={images} />
         <div className="relative w-full">
           <div className="absolute inset-0 bg-adorns bg-cover bg-center rounded-xl opacity-40 pointer-events-none"></div>
           <Contacts>

@@ -29,7 +29,7 @@ const SwipperImage: React.FC<SwipperImageProps> = ({ images }) => {
             <img
               src={src}
               alt={`Slide ${idx + 1}`}
-              className="w-full h-full object-cover max-lg:scale-200S"
+              className="w-full h-full object-cover opacity-70 "
             />
           </SwiperSlide>
         ))}
@@ -38,12 +38,12 @@ const SwipperImage: React.FC<SwipperImageProps> = ({ images }) => {
       {/* Texto à direita no desktop, centralizado no mobile */}
       <div className="absolute z-20 top-0 left-0 w-full h-full flex items-center px-4 sm:px-8 lg:justify-end">
         <div className="max-w-3xl text-gray-800 max-lg:text-white rounded-md text-justify">
-          <h1 className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-bold leading-snug mb-4 max-lg:w-[80%]">
+          <h1 className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-bold leading-snug mb-4 text-secondary">
             A JC Select Alimentos se diferencia no mercado por unir origem
             amazônica, qualidade premium e variedade de produtos que atendem
             tanto o consumidor final quanto grandes empresas.
           </h1>
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl max-lg:w-[80%]">
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-secondary font-semibold">
             Nascida em Belém do Pará, carrega em sua essência a força da região
             Norte, oferecendo alimentos selecionados com responsabilidade,
             frescor e respeito à tradição alimentar brasileira. Essa combinação

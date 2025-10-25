@@ -2,7 +2,6 @@ import AboutUs from "@/Components/AboutUs";
 import BuildingSVG from "@/Components/BuildingSVG";
 import TextSection from "@/Components/TextSection";
 import ImageTextMobile from "@/Components/ImageTextMobile";
-import ImageTextWithBg from "@/Components/ImageTextWithBg";
 import MVV from "@/Components/MVV";
 import CommitmentAmazon from "@/Components/CommitmentAmazon";
 import ParallaxSection from "@/Components/ParallaxSection";
@@ -36,7 +35,7 @@ export default function About() {
 "
         svg={BuildingSVG}
       />
-      <div className="relative w-full p-10 max-lg:px-5 max-lg:pt-5 max-lg:pb-5">
+      <div className="relative w-full p-10 max-lg:px-5 max-lg:pb-5">
         {/* <ImageTextWithBg
           src="/03 1.png"
           alt="peixes"

@@ -19,7 +19,7 @@ export default function Header() {
         <div className="ml-64 flex w-3/5 justify-between max-2xl:ml-0 max-2xl:w-4/5 max-2xl:justify-evenly max-lg:hidden">
           {/* Menu desktop */}
           <nav className="2xl:-ml-20">
-            <ul className="mt-2 flex text-base font-bold 2xl:text-lg lg:text-sm  xl:-ml-10 2xl:-ml-0">
+            <ul className="mt-2 flex text-base font-bold 2xl:text-lg xl:text-sm  xl:-ml-10 2xl:-ml-0">
               {links.map(({ link, name, key }) => (
                 <li
                   className="ml-16 flex items-center opacity-75 hover:opacity-100"
@@ -34,7 +34,7 @@ export default function Header() {
             {socialMedia.map(({ url, link }) => (
               <a
                 href={link}
-                className="xl:ml-5 2xl:ml-0"
+                className="first-of-type:xl:ml-3 2xl:ml-0"
                 target="_Blank"
                 key={url}
               >

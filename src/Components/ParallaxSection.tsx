@@ -67,7 +67,9 @@ export default function ParallaxSection({
       {/* Conteúdo */}
       <div className="flex flex-col justify-center relative mx-auto xl:w-[70%] px-4 py-10 text-white h-full">
         {title && (
-          <h1 className="text-3xl font-bold drop-shadow-lg">{title}</h1>
+          <h1 className="2xl:text-3xl xl:text-2xl font-bold drop-shadow-lg">
+            {title}
+          </h1>
         )}
         {children}
       </div>

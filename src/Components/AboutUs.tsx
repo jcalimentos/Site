@@ -8,7 +8,18 @@ export default function AboutUs() {
       overlayOpacity={0.4}
       height="900px"
     >
-      <p className="xl:text-2xl my-10 drop-shadow-md max-lg:text-base max-lg:text-justify">
+      <p
+        className="
+    xl:text-lg
+    max-lg:text-base
+    my-10
+    drop-shadow-md
+    text-justify
+    [text-justify:inter-word]
+    [hyphens:auto]
+    leading-relaxed
+  "
+      >
         A JC Select Alimentos nasceu em Belém do Pará, no coração da Amazônia,
         trazendo consigo o sabor da tradição, a força da terra e o respeito à
         origem dos alimentos. Fundada em 2020, em meio à pandemia, um período

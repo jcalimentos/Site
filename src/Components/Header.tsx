@@ -7,8 +7,8 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header className="top-0 z-10 xl:w-[95%] left-0 flex items-center max-lg:fixed max-lg:z-10 max-lg:h-20 max-lg:w-full bg-white/20 backdrop-blur-md max-lg:-mx-auto">
-      <div className="top-0 flex h-24 items-center max-lg:w-full 2xl:mx-auto 2xl:w-full">
-        <Logo className="ml-20 max-lg:hidden portrait:hidden" />
+      <div className="top-0 xl:-ml-10 2xl:-ml-0 flex h-24 items-center max-lg:w-full 2xl:mx-auto 2xl:w-full">
+        <Logo className="xl:ml-20 lg:ml-40 max-lg:hidden portrait:hidden" />
 
         {/* Aqui o bloco para centralizar logo mobile e alinhar menu na direita */}
         <div className="flex flex-1 items-center justify-between max-lg:w-full max-lg:px-4">
@@ -18,8 +18,8 @@ export default function Header() {
 
         <div className="ml-64 flex w-3/5 justify-between max-2xl:ml-0 max-2xl:w-4/5 max-2xl:justify-evenly max-lg:hidden">
           {/* Menu desktop */}
-          <nav>
-            <ul className="mt-2 flex text-lg font-bold max-2xl:text-lg lg:text-base ">
+          <nav className="2xl:-ml-20">
+            <ul className="mt-2 flex text-base font-bold 2xl:text-lg lg:text-sm  xl:-ml-10 2xl:-ml-0">
               {links.map(({ link, name, key }) => (
                 <li
                   className="ml-16 flex items-center opacity-75 hover:opacity-100"
@@ -32,7 +32,12 @@ export default function Header() {
           </nav>
           <div className="flex">
             {socialMedia.map(({ url, link }) => (
-              <a href={link} target="_Blank" key={url}>
+              <a
+                href={link}
+                className="xl:ml-5 2xl:ml-0"
+                target="_Blank"
+                key={url}
+              >
                 <Image src={url} width={50} height={50} alt={url} />
               </a>
             ))}

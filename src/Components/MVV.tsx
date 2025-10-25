@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function MVV() {
   return (
-    <div className="w-[70%] mx-auto text-center my-10">
+    <div className="2xl:w-[70%] mx-auto text-center">
       <div className="relative flex flex-col md:flex-row justify-between items-stretch gap-8">
         {/* Gradiente de fundo */}
         <div
@@ -21,7 +21,7 @@ export default function MVV() {
         {Itens.map(({ img, title, text }, i) => (
           <div
             key={i}
-            className="flex flex-col flex-1 px-4 md:px-6 max-w-sm md:max-w-none"
+            className="flex xl:mt-20  flex-col flex-1 px-4 md:px-6 max-w-sm md:max-w-none"
           >
             {/* Círculo com ícone */}
             <div className="w-32 h-32 mx-auto flex items-center justify-center bg-white rounded-full shadow-black/30 shadow-lg">
@@ -40,7 +40,7 @@ export default function MVV() {
             </h3>
 
             {/* Texto */}
-            <p className="mt-10 text-secondary text-sm md:text-base flex-1">
+            <p className="mt-10 text-secondary text-sm md:text-base flex-1 text-justify [text-justify:inter-word] [hyphens:auto] leading-relaxed">
               {text}
             </p>
           </div>
